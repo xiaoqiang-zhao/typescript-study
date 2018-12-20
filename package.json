@@ -1,0 +1,19 @@
+{
+  "name": "typescript-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoqiang-zhao/typescript-study.git"
+  },
+  "author": "xiaoqiang-zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoqiang-zhao/typescript-study/issues"
+  },
+  "homepage": "https://github.com/xiaoqiang-zhao/typescript-study#readme"
+}
