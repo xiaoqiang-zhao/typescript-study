@@ -4,6 +4,6 @@
  * @author xiaoqiang-zhao
  */
 
-import basicType from './ts/1-basic-types.ts';
+import basicType from './ts-demo/1-basic-types.ts';
 
 document.getElementById('app').innerHTML = basicType.getStr();
