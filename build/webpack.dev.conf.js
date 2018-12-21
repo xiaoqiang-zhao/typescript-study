@@ -13,6 +13,7 @@ function resolve(dir) {
 }
 
 module.exports = {
+    mode: 'development',
     entry: {
         app: './src/main.js'
     },
@@ -32,6 +33,11 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 include: [resolve('src'), resolve('test')]
+            },
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/
             }
         ]
     },
