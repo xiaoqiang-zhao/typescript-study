@@ -4,6 +4,10 @@
  * @author xiaoqiang-zhao
  */
 
-import basicType from './ts-demo/1-basic-types.ts';
+import basicTypeDemo from './ts-demo/1-basic-types.ts';
+import interfaceDemo from './ts-demo/2-interface.ts';
 
-document.getElementById('app').innerHTML = basicType.getStr();
+document.getElementById('app').innerHTML = '请打开控制台查看';
+
+basicTypeDemo.printLog();
+interfaceDemo.printLog();
